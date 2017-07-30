@@ -5,8 +5,7 @@ if(!file.exists("./data")){dir.create("./data")}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl,destfile="./data/Dataset.zip")
 trying URL 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-Content type 'application/zip' length 62556944 bytes (59.7 MB)
-downloaded 59.7 MB
+
 
 # Unzip dataset
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
